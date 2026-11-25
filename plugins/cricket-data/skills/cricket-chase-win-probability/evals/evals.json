@@ -1,0 +1,55 @@
+{
+  "skill": "cricket-chase-win-probability",
+  "tasks": [
+    {
+      "prompt": "How did India's chase swing against Australia in the T20?",
+      "expect": [
+        "get_matches and get_win_probability called",
+        "low, high and three largest swings with overs",
+        "required rate computed and labelled"
+      ]
+    },
+    {
+      "prompt": "Win probability for the chasing side after 15 overs",
+      "expect": [
+        "get_win_probability for the match",
+        "number and over stated as returned",
+        "no projection of own"
+      ]
+    },
+    {
+      "prompt": "Win probability for a Test fourth innings",
+      "expect": [
+        "says coverage may not apply to Tests",
+        "does not invent a figure",
+        "offers venue and ratings context instead"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "what are the chances of this chase",
+      "win probability at the 15th over",
+      "how did the match turn",
+      "was the chase ever in doubt",
+      "the biggest swing of the innings",
+      "what does the model give the chasing side",
+      "chase win probability for the IPL final",
+      "when did the chase get away",
+      "required rate and win chance in the death overs",
+      "how often do chasing teams win from here"
+    ],
+    "should_not": [
+      "preview tonight's match",
+      "how does he score in the powerplay",
+      "how does this ground play",
+      "IPL points table",
+      "bookmaker odds for the final",
+      "NFL win probability model",
+      "soccer win probability",
+      "build a win probability model",
+      "ball by ball commentary",
+      "cricket rules for Duckworth-Lewis"
+    ]
+  }
+}

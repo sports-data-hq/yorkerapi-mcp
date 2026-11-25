@@ -1,0 +1,55 @@
+{
+  "skill": "cricket-phase-analysis",
+  "tasks": [
+    {
+      "prompt": "How does Bumrah bowl in the death overs in the IPL?",
+      "expect": [
+        "get_deliveries called with the IPL filter",
+        "death overs defined as 16-20",
+        "economy, dot-ball rate and balls counted, labelled as computed"
+      ]
+    },
+    {
+      "prompt": "Powerplay strike rate for Travis Head over the last IPL season",
+      "expect": [
+        "phase assigned from over number",
+        "balls faced shown",
+        "cross-checked against get_player_stats"
+      ]
+    },
+    {
+      "prompt": "Phase breakdown of a Test innings",
+      "expect": [
+        "says Tests have no standard phases",
+        "uses stated over bands or sessions",
+        "no invented splits"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "how does he score in the powerplay",
+      "death-over bowling for Bumrah",
+      "middle overs strike rate",
+      "which team scores best in the last five overs",
+      "phase breakdown of that chase",
+      "who bowls well at the death in the IPL",
+      "powerplay economy for Starc",
+      "how fast does Kohli score in the middle overs",
+      "dot ball percentage in the powerplay",
+      "how does this team start its innings"
+    ],
+    "should_not": [
+      "preview India vs Australia",
+      "win probability after 10 overs of the chase",
+      "how does this ground play",
+      "IPL points table",
+      "NBA player splits",
+      "what is a powerplay",
+      "build a cricket model",
+      "baseball platoon splits",
+      "live score",
+      "market odds for the match"
+    ]
+  }
+}

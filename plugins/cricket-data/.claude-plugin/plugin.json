@@ -1,0 +1,22 @@
+{
+  "name": "cricket-data",
+  "displayName": "YorkerAPI: cricket skills",
+  "version": "2.0.0",
+  "description": "Cricket analysis skills on YorkerAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the YorkerAPI MCP server.",
+  "author": {
+    "name": "SportsDataHQ",
+    "url": "https://sportsdatahq.com"
+  },
+  "homepage": "https://yorkerapi.com/skills",
+  "repository": "https://github.com/sports-data-hq/sportsdatahq-skills",
+  "license": "MIT",
+  "keywords": [
+    "cricket",
+    "ipl",
+    "t20",
+    "odi",
+    "ball-by-ball",
+    "sports-data",
+    "yorkerapi"
+  ]
+}

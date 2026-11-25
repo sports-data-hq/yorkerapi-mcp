@@ -1,0 +1,54 @@
+{
+  "skill": "cricket-batter-vs-bowler",
+  "tasks": [
+    {
+      "prompt": "How has Virat Kohli done against Mitchell Starc in ODIs?",
+      "expect": [
+        "get_matchup called with both ids and format",
+        "balls shown first",
+        "claim made only if balls >= 30"
+      ]
+    },
+    {
+      "prompt": "Has Bumrah got Travis Head out in T20 cricket?",
+      "expect": [
+        "dismissals and balls reported",
+        "under 30 balls says not enough data and stops",
+        "no pace or spin claims"
+      ]
+    },
+    {
+      "prompt": "How does Babar Azam play spin?",
+      "expect": [
+        "says bowler type is not claimed unless returned by get_deliveries",
+        "does not invent a spin split"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "Kohli against Starc",
+      "has Bumrah got Warner out",
+      "how does he play spin",
+      "Head against Bumrah in T20s",
+      "batter versus bowler record",
+      "who dismissed him most",
+      "Smith vs Ashwin in Tests",
+      "how does Rohit do against left arm pace",
+      "has Archer troubled Root",
+      "Babar against Shaheen"
+    ],
+    "should_not": [
+      "preview India vs Australia",
+      "powerplay strike rate for Head",
+      "win probability of the chase",
+      "how does Eden Gardens play",
+      "IPL team ratings",
+      "bowling at the death for Bumrah",
+      "cricket match prices",
+      "baseball batter versus pitcher",
+      "who is the best batter in the world",
+      "explain the lbw rule"
+    ]
+  }
+}

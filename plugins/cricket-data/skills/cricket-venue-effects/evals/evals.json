@@ -1,0 +1,55 @@
+{
+  "skill": "cricket-venue-effects",
+  "tasks": [
+    {
+      "prompt": "How does Wankhede play in T20s?",
+      "expect": [
+        "get_venue called with the format",
+        "averages, batting-first win rate and matches counted",
+        "thin flag if under 10 matches"
+      ]
+    },
+    {
+      "prompt": "Is Chepauk good for spinners?",
+      "expect": [
+        "states pace and spin splits are not returned",
+        "computes from deliveries only if bowler type exists and says so",
+        "no unsupported claim"
+      ]
+    },
+    {
+      "prompt": "Chasing record at the MCG in ODIs",
+      "expect": [
+        "get_venue and get_matches called",
+        "chasing wins with counts",
+        "recent matches checked against the full record"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "how does Wankhede play",
+      "par score at Chepauk",
+      "should teams bat first here",
+      "is the ground helping spin",
+      "chasing record at this venue",
+      "do big scores happen at Dubai",
+      "toss decisions at this ground",
+      "average first innings total at Eden Gardens",
+      "does the toss matter at the MCG",
+      "is this a high scoring ground"
+    ],
+    "should_not": [
+      "preview Mumbai Indians vs Chennai",
+      "how does he bowl at the death",
+      "win probability of the chase",
+      "IPL standings",
+      "weather forecast for the match",
+      "stadium capacity",
+      "NFL stadium effects on scoring",
+      "build a venue model",
+      "who won the toss",
+      "batting average of Kohli"
+    ]
+  }
+}
