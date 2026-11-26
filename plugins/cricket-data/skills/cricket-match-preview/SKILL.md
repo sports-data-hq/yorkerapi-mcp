@@ -40,3 +40,4 @@ Data: get_schedule, get_ratings, get_venue, get_matches | <competition>, <season
 - Venue numbers need matches: show the count; under 10 matches at a ground, say it's thin.
 - Weather and the toss can swing a match; note when the format makes the toss matter (venue toss data).
 - Odds are information about the market: no pick, stake or bet.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
