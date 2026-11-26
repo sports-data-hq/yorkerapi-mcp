@@ -1,3 +1,65 @@
-{"skill":"cricket-match-preview","tasks":[{"prompt":"Preview India vs Australia ODI","expect":["get_schedule then get_venue","our probability served for international ODI","venue match count shown"]},{"prompt":"IPL preview MI vs CSK","expect":["competition ipl","T20 ratings","Data line"]},{"prompt":"England vs India Test preview","expect":["states probability not served for Tests","ratings in the test format","no pick"]}],
-"triggers":{"should":["preview India vs Australia ODI","IPL preview MI vs CSK","who's favored in the Big Bash tonight","how does this ground play","T20 World Cup match preview","Ashes Test preview","PSL match breakdown","The Hundred preview","cricket match preview","Kohli vs Starc matchup ahead of the game"],
-"should_not":["ball by ball of yesterday's match","Kohli career runs","NFL preview","IPL points table","build a cricket win probability model","explain DLS","list IPL teams","NBA props","tennis preview","cricket bat recommendations"]}}
+{
+  "skill": "cricket-match-preview",
+  "tasks": [
+    {
+      "prompt": "Preview India vs Australia ODI",
+      "expect": [
+        "get_schedule then get_venue",
+        "our probability served for international ODI",
+        "venue match count shown"
+      ]
+    },
+    {
+      "prompt": "IPL preview MI vs CSK",
+      "expect": [
+        "competition ipl",
+        "T20 ratings",
+        "Data line"
+      ]
+    },
+    {
+      "prompt": "England vs India Test preview",
+      "expect": [
+        "states probability not served for Tests",
+        "ratings in the test format",
+        "no pick"
+      ]
+    },
+    {
+      "prompt": "Australia v England T20I at the Gabba: how does the ground play and does the toss matter?",
+      "expect": [
+        "get_venue with a specific ground name and match count",
+        "bat-first win rate with standard error",
+        "toss claimed only if outside the noise",
+        "market no-margin beside our win_prob, never blended",
+        "gender passed to get_ratings"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "preview India vs Australia ODI",
+      "IPL preview MI vs CSK",
+      "who's favored in the Big Bash tonight",
+      "how does this ground play",
+      "T20 World Cup match preview",
+      "Ashes Test preview",
+      "PSL match breakdown",
+      "The Hundred preview",
+      "cricket match preview",
+      "Kohli vs Starc matchup ahead of the game"
+    ],
+    "should_not": [
+      "ball by ball of yesterday's match",
+      "Kohli career runs",
+      "NFL preview",
+      "IPL points table",
+      "build a cricket win probability model",
+      "explain DLS",
+      "list IPL teams",
+      "NBA props",
+      "tennis preview",
+      "cricket bat recommendations"
+    ]
+  }
+}

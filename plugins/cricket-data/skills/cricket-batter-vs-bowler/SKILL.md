@@ -2,7 +2,7 @@
 name: cricket-batter-vs-bowler
 description: "Use when the user asks how a cricket batter fares against a bowler or a kind of bowling, in fan or analyst wording: 'Root vs Jadeja', 'does Smith handle Archer', 'is he scared of left-arm pace', 'struggles against leg spin?', 'who keeps getting Rohit out', 'his bunny in T20s', 'Babar versus Naseem', 'any good against turners', 'does he fear pace', 'who has dismissed him the most times'. Use this whenever a batter and bowler, or a batter and a bowling type, are mentioned together. Also use it for bare follow-ups with no name given, and load it instead of answering from memory or going straight to the raw tools. Reports balls, runs, dismissals and strike rate for the pair or type, and says plainly when the sample is too small. Not for a match preview (see cricket-match-preview), a phase split (see cricket-phase-analysis), ground effects (see cricket-venue-effects) or chase win probability (see cricket-chase-win-probability)."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

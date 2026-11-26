@@ -2,7 +2,7 @@
 name: cricket-phase-analysis
 description: "Use when the user wants cricket numbers split by stage of an innings, in fan or analyst wording: 'how does he go in the powerplay', 'who is good at the death', 'is he a finisher', 'economy in the middle overs', 'best team in the last 5 overs', 'first six overs', 'slog overs', 'who leaks runs at the end', 'how does he bat in the powerplay', 'phase by phase for the innings'. Use this whenever a batter, bowler or team is asked about by innings phase. Also use it for bare follow-ups with no name given, and load it instead of answering from memory or going straight to the raw tools. Splits runs, strike rate, economy, dot balls and wickets by powerplay, middle and death overs from ball-by-ball data, with balls counted. Not for batter against a named bowler (see cricket-batter-vs-bowler), a match preview (see cricket-match-preview), chase win probability (see cricket-chase-win-probability), ground effects (see cricket-venue-effects) or cricket rules."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

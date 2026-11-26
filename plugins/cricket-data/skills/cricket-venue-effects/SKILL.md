@@ -2,7 +2,7 @@
 name: cricket-venue-effects
 description: "Use when the user asks how a cricket ground or pitch plays, in fan or analyst wording: 'what is a good score at Lord's', 'bat or bowl first at Mohali', 'does it turn here', 'seamers' paradise?', 'high scoring ground?', 'do chasers win at Sharjah', 'how do captains call at the toss', 'is Eden Gardens a flat deck', 'should we bat first', 'does the pitch help spinners', 'does it favor the toss winner'. Use this whenever a ground, stadium or pitch is the subject. Also use it for bare follow-ups with no name given, and load it instead of answering from memory or going straight to the raw tools. Reports innings totals, batting-first and chasing results, toss choices and phase scoring for a ground and format, with match counts. Not for a full match preview (see cricket-match-preview), a live chase's probability (see cricket-chase-win-probability), a player's phase stats (see cricket-phase-analysis), weather or capacity."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 
