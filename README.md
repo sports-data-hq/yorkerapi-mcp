@@ -13,7 +13,7 @@ Claude: [calls search_players, then get_player_stats with phase=death]
 
 ## Skills
 
-5 Claude skills for cricket ship in this repo, plus 14 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live YorkerAPI tool call, and odds are information only: no stakes, no picks.
+5 Claude skills for cricket ship in this repo, plus 15 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live YorkerAPI tool call, and odds are information only: no stakes, no picks.
 
 Claude Code:
 
@@ -33,7 +33,7 @@ Codex: `codex plugin marketplace add sports-data-hq/yorkerapi-mcp`. Any agent th
 | `cricket-phase-analysis` | Runs, strike rate, economy, dots and wickets split by powerplay, middle and death overs |
 | `cricket-venue-effects` | How a ground plays: innings totals, toss choices, batting first against chasing, phase scoring |
 
-The analytics skills: `backtesting`, `data-pipeline`, `elo-engineering`, `feature-engineering`, `market-vs-model`, `model-building`, `nl-to-query`, `odds-market-analysis`, `prediction-tracker`, `probability-calibration`, `sports-data-preflight`, `sports-skill-router`, `visualization`, `walk-forward-validation`.
+The analytics skills: `backtesting`, `data-pipeline`, `elo-engineering`, `feature-engineering`, `market-vs-model`, `model-building`, `nl-to-query`, `odds-market-analysis`, `prediction-tracker`, `probability-calibration`, `season-pack-offline`, `sports-data-preflight`, `sports-skill-router`, `visualization`, `walk-forward-validation`.
 
 All nine sports' skills live in [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills). The copies here are synced from there, so please open issues and pull requests there.
 
