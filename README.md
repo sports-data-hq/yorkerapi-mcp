@@ -1,5 +1,7 @@
 # YorkerAPI MCP server
 
+[![YorkerAPI MCP connector](https://glama.ai/mcp/connectors/io.github.noahowsh/yorkerapi/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.noahowsh/yorkerapi)
+
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-0b7285?style=flat-square)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.noahowsh/yorkerapi)
 
 **The cricket data API.** Ball by ball for 23,241 matches in every format, men's and women's, from Tests and ODIs to the IPL, the Big Bash and The Hundred, with players, venues, our own Elo ratings and per-ball win probability. From mid-2020, each sportsbook's match-winner price sits beside the match it belongs to. REST API and MCP server. 500 free credits every month, no card.
