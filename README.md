@@ -50,7 +50,7 @@ The key can also be sent as `Authorization: Bearer`, or as `?key=` on the URL fo
 For a client that launches a local process instead:
 
 ```bash
-git clone https://github.com/noahowsh/yorkerapi-mcp.git && cd yorkerapi-mcp && npm install
+git clone https://github.com/sports-data-hq/yorkerapi-mcp.git && cd yorkerapi-mcp && npm install
 YORKERAPI_API_KEY=your_key node index.js
 ```
 
@@ -59,8 +59,8 @@ It forwards to the hosted server with your key, so every tool and credit cost is
 ## Use it in
 
 - **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.yorkerapi.com/mcp` as a remote MCP server. Step-by-step for each: https://yorkerapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
-- **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/yorkerapi-mcp`
-- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
+- **Gemini CLI:** `gemini extensions install https://github.com/sports-data-hq/yorkerapi-mcp`
+- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/sports-data-hq/sportsdatahq-cursor-plugins)
 - **Google Sheets:** `=SDHQ("yorkerapi","list_competitions")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
 - **REST:** `POST https://mcp.yorkerapi.com/v1/<tool>` with an `x-api-key` header: https://yorkerapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
 
@@ -98,7 +98,7 @@ Competitions are filters on one dataset: Tests, ODIs and T20Is, the IPL, Big Bas
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://yorkerapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000), Business $299/mo (300,000). Wallet top-ups from $5, never expire. https://yorkerapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=yorkerapi-mcp
 
 ## Data credits
 
