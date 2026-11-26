@@ -2,7 +2,7 @@
 name: cricket-chase-win-probability
 description: "Use when the user wants the win probability of a cricket run chase or how it swung: 'what are the chances of this chase', 'win probability at the 15th over', 'how did the match turn', 'was the chase ever in doubt', 'the biggest swing of the innings', 'what does the model give the chasing side'. Reports our win probability through the second innings (get_win_probability), the swings between overs, the required rate, and compares it with the market's view as information. Not for a pre-match preview (see cricket-match-preview), phase stats (see cricket-phase-analysis) or ground effects (see cricket-venue-effects)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 

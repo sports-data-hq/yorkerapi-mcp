@@ -2,7 +2,7 @@
 name: cricket-venue-effects
 description: "Use when the user asks how a cricket ground plays or what to expect from the toss and the pitch, in fan wording: 'what's par at this ground', 'is this a high scoring ground', 'does the toss matter here', 'bat first or chase at Mohali', 'toss decisions at this ground', 'chasing record at this venue', 'do chasers win at Sharjah', 'is Eden Gardens a flat deck', 'seamers' paradise or spin?', 'how do captains call at the toss'. Use this whenever a ground, stadium or pitch is the subject, with or without a name; load it instead of answering from memory. Reports innings totals, batting-first against chasing results, toss choices and phase scoring for a ground and format, with match counts. Not for a full match preview with ratings and prices (see cricket-match-preview), a live chase's probability (see cricket-chase-win-probability), one player's phase or matchup stats (see cricket-phase-analysis, cricket-batter-vs-bowler), weather or capacity."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 
